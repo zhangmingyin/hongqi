@@ -1,0 +1,15 @@
+.breadcrumb-item + .breadcrumb-item::before {
+    content:">";
+}
+.bg_mb{
+    background:none;
+}
+.tb{
+    overflow: hidden;
+    width:460px;height: 460px;
+}
+
+
+.my_img_w{
+    width:28rem;
+}

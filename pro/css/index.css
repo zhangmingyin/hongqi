@@ -1,0 +1,50 @@
+.my_header,.my_footer{
+    width:100%;
+}
+/*大屏下iframe的高*/
+@media(min-width: 992px){
+    .my_header{height: 10rem;}
+    .my_footer{height: 22rem;}
+}
+
+@media (min-width: 576px) and (max-width:991px ) {
+    .my_header{height: 11rem;}
+    .my_footer{height: 50rem;}
+}
+div .desc2{
+    width:253px;height:221px;
+    top:63px;left:24px;
+    z-index: 10000;
+}
+div .desc2,.title{font-size: 32px;color:#333;}
+.imgs2{
+    width:292px;height:232px;
+    bottom: 20px;right:25px;
+    position: absolute;
+    cursor: pointer;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+
+}
+.imgs2:hover{transform:scale(1.1)}
+.desc3{width:149px;height:143px;
+    top:25px;left:40px;
+    z-index: 10000;
+}
+ .title3{font-size: 22px;color:#333;}
+.imgs3{
+    width:215px;height:156px;
+    top: 20px;right:7px;
+    position: absolute;
+    cursor: pointer;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    z-index: 1;
+}
+.imgs3:hover{transform:scale(1.1)}

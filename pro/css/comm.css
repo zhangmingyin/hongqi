@@ -1,0 +1,125 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #f5f5f5;
+  color: #666;
+  font-family: 黑体; }
+
+.font_small {
+  font-size: 0.8rem;
+  background:none;
+}
+/*大屏下iframe的高*/
+@media(min-width: 992px){
+  .my_header{height: 10rem;}
+  .my_footer{height: 22rem;}
+}
+
+@media (min-width: 576px) and (max-width:991px ) {
+  .my_header{height: 11rem;}
+  .my_footer{height: 50rem;}
+}
+.bg_bjb{
+  font: 16px simhei;
+  width: 100%;
+  padding-left: 20px;
+  height: 38px;
+  line-height: 38px;
+
+  background-image:linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+}
+.img1{transition: 1s;cursor: pointer;}
+.img1:hover{transform: scale(1.1)}
+.my_input_w{
+  width:10%;border:0;outline:0;
+}
+.fs p{
+  font-size:16px;
+  color:#808080;
+  padding-top: 10px;
+}
+.page-item{
+  border-radius:0.25rem;margin-left:0.25rem;
+}
+.header_top{height:92px;text-align: center;}
+.bg_top{background-color:#f3f3f3;}
+
+.carousel-control-prev,
+.carousel-control-next{
+  width:4%;height:15%;
+  top:45%;
+  background-color:#aaa;
+  border-radius:5%;
+}
+.carousel-indicators li{
+  width:0.5rem;height:0.5rem;
+  border-radius:0.25rem;
+  margin:0 7px;
+}
+.carousel-indicators li.active{
+  background-color:#f00;
+}
+.font_zt{transition: 1s;}
+.font_small .font_zt:hover{
+  transform: scale(1.1);
+  color: #c7a749 !important;
+}
+.font_zt:hover{
+  transform: scale(1.1);
+  color: #c7a749 !important;
+}
+.font_zt:hover p{color:#c7a749 ;}
+.font_zt p{margin-top:-20px;font-size: 13px;}
+
+
+.nav-item:hover a{
+  border-bottom: 2px solid #f00;
+}
+.bs .font_zt:hover
+{color:#c7a749 !important;}
+
+
+
+.container div div a{transition:1s}
+.container div div a:hover{transform:scale(1.1)}
+
+.border_top{border:2px solid #c7a749}
+
+.bg_bg{
+  border-top:3px solid #e8e8e8;
+  border-bottom:3px solid #e8e8e8;
+}
+.bg_bg li{
+  text-decoration: none;list-style: none;
+  box-sizing: border-box;
+}
+
+.bg_bg a:hover li{color:#c7a749 !important;}
+
+.right_{right:0px;bottom:0px;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "|";
+}
+
+ul .text_xhx{text-decoration: none;}
+
+.aa:hover +.bb{
+  display: block;
+}
+.bb{
+  display: none;
+}
+.bb:hover{display: block}
+
+
+
+
+
+
+
+
+

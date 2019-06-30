@@ -1,0 +1,36 @@
+@charset "UTF-8";
+div {
+  width: 200px; }
+
+div {
+  width: 210px; }
+
+div {
+  width: 30px; }
+
+div:before {
+  content: "ASFF"; }
+
+p {
+  width: 5px;
+  color: rgba(11, 22, 255, 0.6);
+  /*h:色调;s:饱和度 0%~100%;l:亮度 0%~100%*/
+  background: #40bfbf; }
+
+p:after {
+  content: "Microsoftyahei"; }
+
+.my-bottom-border {
+  border: 2px solid #f00;
+  border-radius: 50%;
+  box-shadow: 0 0; }
+
+.my-rounded {
+  border: 1px solid #f00;
+  border-radius: 50%; }
+
+.parent, .child {
+  color: #ff0; }
+
+.child {
+  box-shadow: 0 3px 10px; }
