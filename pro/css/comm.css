@@ -99,7 +99,7 @@ body {
 
 .bg_bg a:hover li{color:#c7a749 !important;}
 
-.right_{right:0px;bottom:0px;
+.right_{right:0px;bottom:-50px;
 }
 .breadcrumb-item + .breadcrumb-item::before {
   content: "|";
@@ -112,6 +112,8 @@ ul .text_xhx{text-decoration: none;}
 }
 .bb{
   display: none;
+  position: absolute;
+  top: -300px;
 }
 .bb:hover{display: block}
 
