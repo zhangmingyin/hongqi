@@ -117,6 +117,14 @@ ul .text_xhx{text-decoration: none;}
 }
 .bb:hover{display: block}
 
+._sp1{font-size: 22px;font-weight: bold;text-indent: each-line}
+
+._sp2{color:#858383;font-weight: bold}
+
+div .change_bg{background-color: red;
+  height: 40px;line-height: 40px;
+}
+
 
 
 
