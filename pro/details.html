@@ -10,12 +10,175 @@
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/header..css"/>
+    <link rel="stylesheet" href="css/comm.css"/>
     <style>
         body{
             background: #ebebeb; }
     </style>
 </head>
+
 <body>
+<div class="container-fluid px-0" >
+    <!-- 头部-->
+    <div class="header_top bg_bjb">
+        <img src="picture/logo.png" alt=""/>
+    </div>
+    <!-- 导航-->
+    <div id="parent">
+        <ul  class="nav bg_top justify-content-around nav-tabs">
+            <li class="nav-item ">
+                <a class="nav-link text-dark font_small" href="#" data-toggle="collapse" data-target="#car0">首页</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link text-dark font_small " data-toggle="collapse" data-target="#car" href="#" >车型产品</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link text-dark font_small " data-toggle="collapse" data-target="#post-sale" href="#">服务支持</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link text-dark font_small"data-toggle="collapse" data-target="#post-sale1" href="#">优享金融</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link text-dark font_small" data-toggle="collapse" data-target="#post-sale2" href="#">品牌故事</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link text-dark font_small"data-toggle="collapse" data-target="#post-sale3" href="#">品牌资讯</a>
+            </li>
+        </ul>
+        <div class="collapse" id="car0" data-parent="#parent"></div>
+        <div class="collapse" id="car" data-parent="#parent" >
+            <div class="rom d-flex flex-row flex-wrap nav-tabs" >
+                <div class="col-lg-4 col-sm-12 text-center">
+                    <a href="#" class="nav-link text-dark font_zt">
+                        <img  src="picture/top_a1_03.png" alt=""/>
+                        <p>领袖级行政座驾</p>
+                        <p>红旗L5</p>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-12 text-center">
+                    <a href="#" class="nav-link text-dark font_zt">
+                        <img  src="picture/top_a2_03.png" alt=""/>
+                        <P>豪华C级新商务座驾</P>
+                        <P>新红旗H7</P>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-12 text-center">
+                    <a href="#" class="nav-link text-dark font_zt">
+                        <img src="picture/top_a3_03.png" alt=""/>
+                        <p>新一代B级高级轿车</p>
+                        <p>新红旗H5</p>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-12 text-center">
+                    <a href="#" class="nav-link text-dark font_zt">
+                        <img src="picture/qidai.png" alt=""/>
+                        <p>敬请期待</p>
+                        <p>Coming soon</p>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-12 text-center">
+                    <a href="#" class="nav-link text-dark font_zt">
+                        <img src="picture/hs5.png" alt=""/>
+                        <p>首款豪华B级SUV</p>
+                        <p>红旗HS5</p>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-12 text-center">
+                    <a href="#" class="nav-link text-dark font_zt">
+                        <img src="picture/qidai.png" alt=""/>
+                        <p>敬请期待</p>
+                        <p>Coming soon</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="collapse" id="post-sale"  data-parent="#parent">
+            <div class="row d-flex flex-row nav-tabs">
+                <div class="col-lg-3 col-sm-12 text-center mt-5 font_small ">
+                    <a href="#" class=" nav-link text-dark font_zt">服务理念</a>
+                </div>
+                <div class="col-lg-2 col-sm-12 text-center mt-5 font_small">
+                    <a href="#" class="nav-link text-dark font_zt">维修与保养</a>
+                </div>
+                <div class="col-lg-2 col-sm-12 text-center mt-5 font_small">
+                    <a href="#" class="nav-link text-dark font_zt">服务网点</a>
+                </div>
+                <div class="col-lg-2 col-sm-12 text-center">
+                    <a href="#">
+                        <img  src="picture/t1_03.jpg" alt=""/>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-12 text-center mt-5 font_small">
+                    <p>用心追求</p>
+                    <p>理想服务</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="collapse" id="post-sale1" data-parent="#parent">
+            <div class="row d-flex flex-row nav-tabs">
+                <div class="col-lg-3 col-sm-12 text-center mt-5 font_small">
+                    <a href="#" class="text-dark nav-link font_zt ">金融方案</a>
+                </div>
+                <div class="col-lg-3 col-sm-12 text-center mt-5 font_small">
+                    <a href="#" class="text-dark nav-link  font_zt">购车计算器</a>
+                </div>
+                <div class="col-lg-3 col-sm-12 text-center">
+                    <a href="#">
+                        <img src="picture/t2_03.jpg" alt=""/>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-12 text-center font_small mt-5">
+                    <p>理想之作</p>
+                    <p>触手可得</p>
+                </div>
+            </div>
+        </div>
+        <div class="collapse" id="post-sale2" data-parent="#parent">
+            <div class="row d-flex flex-row nav-tabs">
+                <div class="col-lg-3 col-sm-12 mt-5 text-center font_small">
+                    <a class="text-dark nav-link font_zt" href="#">红旗历史</a>
+                </div>
+                <div class="col-lg-2 col-sm-12 mt-5 text-center font_small">
+                    <a class="text-dark nav-link font_zt" href="#">品牌荣耀</a>
+                </div>
+                <div class="col-lg-2 col-sm-12 mt-5 text-center font_small">
+                    <a class="text-dark nav-link font_zt" href="#">加入红旗</a>
+                </div>
+                <div class="col-lg-2 col-sm-12 text-center ">
+                    <a href="#">
+                        <img src="picture/t3_03.jpg" alt=""/>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-12 mt-5 font_small text-center">
+                    <p>红旗理想</p>
+                    <p>荣耀启程</p>
+                </div>
+            </div>
+        </div>
+        <div class="collapse nav-tabs" id="post-sale3" data-parent="#parent" >
+            <div class="row d-flex flex-row ">
+                <div class="col-lg-3 col-sm-12 font_small text-center mt-5 ">
+                    <a href="#" class="text-dark nav-link font_zt">品牌新闻</a>
+                </div>
+                <div class="col-lg-3 col-sm-12 font_small text-center mt-5 ">
+                    <a class="text-dark nav-link font_zt" href="#">品牌活动</a>
+                </div>
+                <div class="col-lg-3 col-sm-12  text-center">
+                    <a href="#">
+                        <img src="picture/t4_03.jpg" alt=""/>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-12 font_small text-center mt-5">
+                    <p>焕新启程</p>
+                    <p>创享未来</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--主体-->
 <div class="container-fluid p-0">
     <a href="#">
         <img class="w-100" src="picture/L5.jpg" alt=""/>
@@ -89,8 +252,19 @@
                 </div>
             </div>
         </div>
+        <div class="mt-3">
+            <div class="m1_transform">
+                <img class="w-100" src="picture/t4_03%20(1).jpg" alt=""/>
+            </div>
+        </div>
     </div>
-    <div>
+    <div class="mt-5 ml-5">
+        <p>
+            <span class="_sp1">外饰内观</span>
+            <span class="_sp2">/  INTERIOR AND EXTERIOR</span>
+        </p>
+    </div>
+    <div class="mt-3">
         <div>
             <img class="w-100" src="picture/hongqi_350.jpg" alt=""/>
         </div>
@@ -98,7 +272,140 @@
 
 
 
+    <div class="mt-5 ml-5">
+        <p>
+            <span class="_sp1">参数配置</span>
+            <span class="_sp2">/   PARAMETER CONFIGURATION</span>
+        </p>
+    </div>
+    <div class="position-relative">
+        <p class="p_bg position-absolute">红旗L5技术参数及装备</p>
+        <div>
+            <img class="w-100" src="picture/cx_h7_m5_03.jpg" alt=""/>
+        </div>
+    </div>
+
+
 </div>
 
+
+<!--//尾部-->
+<div class="container">
+    <div class="bg_bg mt-5 position-relative">
+        <div class="container">
+            <div class="d-flex flex-wrap ">
+                <ul class="col-md-6 col-sm-12 col-lg-2 nav-tabs">
+                    <a class="nav-link" href="#">
+                        <li class="text-dark">车型产品</li>
+                    </a>
+                    <a class="nav-link" href="#">
+                        <li  class="font_small text-muted">H5</li>
+                    </a>
+                    <a class="nav-link" href="#">
+                        <li  class="font_small text-muted">新H7</li>
+                    </a>
+                    <a class="nav-link" href="#">
+                        <li  class="font_small text-muted">新H5</li>
+                    </a>
+                </ul>
+                <ul class=" nav-tabs col-md-6 col-lg-2 mr-lg-5 col-sm-12">
+                    <a class="nav-link" href="#">
+                        <li class="text-dark">服务支持</li>
+                    </a>
+                    <a class="nav-link" href="#">
+                        <li  class="font_small text-muted">服务理念</li>
+                    </a>
+                    <a class="nav-link" href="#">
+                        <li  class="font_small text-muted">维修与保养</li>
+                    </a>
+                    <a class="nav-link" href="#">
+                        <li  class="font_small text-muted">服务网点</li>
+                    </a>
+                </ul>
+                <ul class="  nav-tabs col-md-6 col-lg-2 col-sm-12">
+                    <a class="nav-link" href="#">
+                        <li class="text-dark">优选金融</li>
+                    </a>
+                    <a class="nav-link" href="#">
+                        <li  class="font_small text-muted">金融方案</li>
+                    </a>
+                    <a class="nav-link" href="#">
+                        <li  class="font_small text-muted">购车计算器</li>
+                    </a>
+                </ul>
+                <ul class=" nav-tabs col-md-6 col-lg-2 col-sm-12">
+                    <a class="nav-link" href="#">
+                        <li class="text-dark">品牌故事</li>
+                    </a>
+                    <a class="nav-link" href="#">
+                        <li  class="font_small text-muted">红旗历史</li>
+                    </a>
+                    <a class="nav-link" href="#">
+                        <li  class="font_small text-muted">品牌荣耀</li>
+                    </a>
+                    <a class="nav-link" href="#">
+                        <li  class="font_small text-muted">加入红旗</li>
+                    </a>
+                </ul>
+
+                <ul class=" nav-tabs col-md-6 col-lg-2 col-sm-12">
+                    <a class="nav-link" href="#">
+                        <li class="text-dark">品牌资讯</li>
+                    </a>
+                    <a class="nav-link" href="#">
+                        <li  class="font_small text-muted">品牌新闻</li>
+                    </a>
+                    <a class="nav-link" href="#">
+                        <li  class="font_small text-muted">品牌活动</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="position-absolute right_ text-center mb-5">
+                <a href="#" class="nav-link text-dark">
+                    <img src="picture/top_03.png" alt=""/>
+                    <p>返回顶部</p>
+                    <p>24小时全天候服务热线:</p>
+                    <p>4008-171717</p>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <ul class=" position-relative justify-content-center d-flex mt-5 list-unstyled">
+        <li class="nav-tabs">
+            <a href="#" class="nav-link text-dark">
+                <img src="picture/foot2_1_i2.png" alt=""/>
+                <span class="font_small">官方微博</span>
+            </a>
+        </li>
+        <li class="nav-tabs aa">
+            <a href="#" class="nav-link text-dark">
+                <img src="picture/foot2_1_i3.png" alt=""/>
+                <span class="font_small">官方微信</span>
+            </a>
+        </li>
+        <li class="bb">
+            <img src="picture/ewm.png" alt=""/>
+        </li>
+
+    </ul>
+    <ul class="breadcrumb d-flex justify-content-center font_small ">
+        <li class="breadcrumb-item ">
+            <a class="text-muted text_xhx" href="#">联系我们</a>
+        </li>
+        <li class="breadcrumb-item">
+            <a class="text-muted text_xhx"  href="#">招聘英才</a>
+        </li>
+        <li class="breadcrumb-item">
+            <a class="text-muted text_xhx"  href="#">网站声明</a>
+        </li>
+    </ul>
+    <div class="text-center font_small">
+        <p>©2017中国第一汽车股份有限公司版权所有 </p>
+        <p>吉ICP备09003045号</p>
+    </div>
+
+</div>
 </body>
 </html>
