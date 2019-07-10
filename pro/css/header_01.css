@@ -4,3 +4,28 @@ div .m1_ila img{transition: 1s;}
 div .m1_ila img:hover{
     transform: scale(1,1);
 }
+
+.m1_ilb{
+    top:25%;
+    left: 25%;
+    z-index: 10;
+}
+
+.m1_i1_text{
+    font-size: 22px;
+    font-weight: bold;
+    position: absolute;
+    top:50%;
+    left: 10%;
+    z-index: 20;
+}
+
+.m2_i1_text{
+    font-size: 22px;
+    font-weight: bold;
+    position: absolute;
+    top:50%;
+    left: 10%;
+    z-index: 20;
+    color:#fff;
+}
