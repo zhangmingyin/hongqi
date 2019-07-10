@@ -1,0 +1,6 @@
+.li_bg{background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ded5d5), to(rgba(104, 104, 115, 0.5)));}
+
+div .m1_ila img{transition: 1s;}
+div .m1_ila img:hover{
+    transform: scale(1,1);
+}
