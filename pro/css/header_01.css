@@ -29,3 +29,22 @@ div .m1_ila img:hover{
     z-index: 20;
     color:#fff;
 }
+
+.m3_bto{
+    height: 24px;
+    line-height: 16px;
+    margin-top: 30px;
+    margin-left: 45%;
+    cursor: pointer;
+    float: left;
+}
+
+.p-bg{
+    font-size: 18px;
+    color:#353535;
+}
+
+.m3_m{
+    padding: 0px !important;
+}
+
