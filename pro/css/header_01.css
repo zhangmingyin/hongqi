@@ -9,6 +9,7 @@ div .m1_ila img:hover{
     top:25%;
     left: 25%;
     z-index: 10;
+    display: flex;
 }
 
 .m1_i1_text{
@@ -39,12 +40,80 @@ div .m1_ila img:hover{
     float: left;
 }
 
-.p-bg{
-    font-size: 18px;
-    color:#353535;
-}
+
 
 .m3_m{
     padding: 0px !important;
 }
 
+.top-1{
+    top:322px;
+    position: absolute;
+}
+
+.m2_wg{
+    right:44%;
+    bottom: 15px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.m2_wg div{
+    margin: 0 10px;
+}
+.p_bg3{
+    font-weight: bold;
+    z-index: 99;
+    font-size: 22px;
+    color:#353535;
+    top: 50%;
+    left: 10%;
+}
+
+.p_bg4{
+    font-weight: bold;
+    z-index: 100;
+    font-size: 22px;
+    color:#fff;
+    top: 50%;
+    right: 10%;
+}
+
+.a_di{
+    width:88px;
+    height: 26px;
+    display: block;
+    background:#ccc;
+    font-size: 12px;
+    color:#353535 !important;
+    line-height: 26px;
+    z-index: 200;
+    padding: 3px 10px;
+    margin-top: 8px;
+    text-decoration: none !important;
+}
+
+.a_di1{
+    width:88px;
+    height: 26px;
+    display: block;
+    background:#fff !important;
+    font-size: 12px;
+    color:#353535 !important;
+    line-height: 26px;
+    z-index: 300;
+    padding: 3px 10px;
+    margin-top: 8px;
+    text-decoration: none !important;
+}
+
+.width_kg img{
+    width:210px;
+    height: 130px;
+}
+
+.m2_wg1{
+    right:50px;
+    top: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+}
