@@ -1,0 +1,39 @@
+.main_bg{
+    background-color: #171e29;
+}
+
+.main_bg1{
+    background-image: url(../picture/bg-h5.jpg);
+}
+
+.h11_kg{
+    width:200px;
+    height: 200px;
+}
+
+.container ul{
+    background: #fff;
+}
+
+.li_bg1{
+    background: #d61518 !important;
+}
+
+div ul li.li_bg2{
+    background: #153975 !important;
+
+}
+
+.high img{
+    padding:0 200px;
+}
+
+div p span._sp11{
+    font-size: 22px;font-weight: bold;color:red;
+}
+
+
+div p span._sp22{
+    font-size: 15px;font-weight: bold;text-indent: each-line;color:#fff;
+}
+

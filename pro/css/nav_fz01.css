@@ -1,0 +1,54 @@
+.m1_title1 {
+    text-indent: 19px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.m1_title2 {
+    text-indent: 19px;
+    font-size: 14px;
+    margin-top: 11px;
+}
+
+.fg{
+    width: 100%;
+    height: 3px;
+    background: #e2e2e2;
+    background: linear-gradient(to right, #e2e2e2 , #f6f6f6);
+    margin-top: 30px;
+}
+
+.m2_text{
+    float: right;
+    right:50px;
+    bottom: 0px;
+}
+
+.text_p1{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.text_p2{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.text_p3{
+    font-size: 14px;
+    line-height: 24px;
+}
+.text_p4{
+    font-size: 14px;
+    line-height: 24px;
+}
+.text_p5{
+    font-size: 14px;
+    line-height: 24px;
+}
+.text_p6{
+    font-size: 14px;
+    line-height: 24px;
+}
