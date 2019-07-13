@@ -1,0 +1,34 @@
+.m2_title1{
+    font-size: 18px;
+    height: 40px;
+    font-weight: bold;
+    margin: 60px 0 20px 0;
+
+    width: 100%;
+    color:#353535;
+}
+
+.m2_title2{
+    font-size: 15px;
+    margin-top: 0px;
+
+    line-height: 30px;
+    color: #272727;
+}
+
+.width_top{
+    width: 100%;height: 35px;
+    background: #8E0721;
+    text-indent: 25px;
+    line-height: 35px;
+    font-size: 10px;
+    color: #fff;
+}
+
+.m1_transform{
+    cursor: pointer;
+    overflow: hidden;
+}
+.m1_transform img{transition:0.6s;}
+
+.m1_transform img:hover{transform: scale(1.05)}

@@ -22,6 +22,26 @@ body {
   .my_header{height: 11rem;}
   .my_footer{height: 50rem;}
 }
+
+.denglu_bg{
+  width: 130px;
+  height: 40px;
+  background-image:linear-gradient(to bottom,#353535,#999);
+  top:50px;
+  color:#fff;
+  font-weight: bold;
+}
+
+.denglu_bg1{
+  width: 130px;
+  height: 40px;
+  background-image:linear-gradient(to bottom,#1c69d4,#007bff);
+
+  top:50px;
+  color:#fff;
+  font-weight: bold;
+}
+
 .bg_bjb{
   font: 16px simhei;
   width: 100%;
@@ -29,7 +49,7 @@ body {
   height: 38px;
   line-height: 38px;
 
-  background-image:linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+  background-image:linear-gradient(to bottom,#353535,#e0e0e0);
 }
 .img1{transition: 1s;cursor: pointer;}
 .img1:hover{transform: scale(1.1)}
